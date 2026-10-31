@@ -1,12 +1,12 @@
 {
-  "version": "20261030181944-db6fdb2-dirty",
+  "version": "20261031111714-db6fdb2-dirty",
   "notes": "",
   "force": false,
   "packages": {
     "arm": {
       "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/windserver-linux-arm",
-      "sha256": "9650da3cfea5190076d6b83c571b38163409d05d34685a908eff702cd55932af",
-      "size": 7895620
+      "sha256": "7c7bef6b8c75c31cbfb569f21397a22722323266cac5a60c64d604c498acaeab",
+      "size": 7980880
     }
   }
 }
