@@ -1,0 +1,13 @@
+{
+  "vendor": "qcom",
+  "version": "20261115232733",
+  "notes": "QCOM: IMEI 改为复用 AT+CGSN 获取；包含 serving/DCI 优化",
+  "force": false,
+  "packages": {
+    "arm": {
+      "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261115232733/windserver-linux-arm",
+      "sha256": "6719719c1e26aa2754d6226338a918fbb233ce3280e0cc2896ffd371f9199ab8",
+      "size": 5358084
+    }
+  }
+}
