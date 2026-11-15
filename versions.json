@@ -1,0 +1,19 @@
+{
+  "vendor": "qcom",
+  "latest": "20261115114237",
+  "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261115114237",
+      "notes": "切换 Go 1.27.4 / garble v0.18.0；移除运营商扫描；自动更新增加 DNS 连通性检查",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261115114237/windserver-linux-arm",
+          "sha256": "3bf8b04d8f51f1bdd176af097b923e977c75beb2689f3d8d3198fdfd5d43130a",
+          "size": 5392000
+        }
+      }
+    }
+  ]
+}
