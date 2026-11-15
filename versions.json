@@ -1,7 +1,20 @@
 {
   "vendor": "qcom",
-  "latest": "20261115232733",
+  "latest": "20261115235941",
   "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261115235941",
+      "notes": "QCOM: IMEI 改用 AT+GSN，移除无效 AT 测量命令，修复获取卡顿",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261115235941/windserver-linux-arm",
+          "sha256": "8892d1378ad343c0d22d60b06a434d8f06fe1713beaff78a6da998417de4af5f",
+          "size": 5385840
+        }
+      }
+    },
     {
       "vendor": "qcom",
       "version": "20261115232733",
