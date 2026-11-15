@@ -1,0 +1,13 @@
+{
+  "vendor": "qcom",
+  "version": "20261115230043",
+  "notes": "QCOM: 优化 serving 小区判定与 DCI 采集，减少误判和卡顿",
+  "force": false,
+  "packages": {
+    "arm": {
+      "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261115230043/windserver-linux-arm",
+      "sha256": "9184ba21e8d7afe763f5d5908e82248e656d70a302f2ece68fd646ad06e86d67",
+      "size": 5420376
+    }
+  }
+}
