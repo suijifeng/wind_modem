@@ -1,7 +1,20 @@
 {
   "vendor": "qcom",
-  "latest": "20261116003941",
+  "latest": "20261116-x65-ui-display-fix",
   "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261116-x65-ui-display-fix",
+      "notes": "UI美化，修复部分内容显示",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261116-x65-ui-display-fix/windserver-linux-arm",
+          "sha256": "2fe681129127b408d568a6005cd9c3ef104094603bf9d735155e62724a8a21b4",
+          "size": 6508592
+        }
+      }
+    },
     {
       "vendor": "qcom",
       "version": "20261116003941",
@@ -38,19 +51,6 @@
           "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261115232733/windserver-linux-arm",
           "sha256": "6719719c1e26aa2754d6226338a918fbb233ce3280e0cc2896ffd371f9199ab8",
           "size": 5358084
-        }
-      }
-    },
-    {
-      "vendor": "qcom",
-      "version": "20261115230043",
-      "notes": "QCOM: 优化 serving 小区判定与 DCI 采集，减少误判和卡顿",
-      "force": false,
-      "packages": {
-        "arm": {
-          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261115230043/windserver-linux-arm",
-          "sha256": "9184ba21e8d7afe763f5d5908e82248e656d70a302f2ece68fd646ad06e86d67",
-          "size": 5420376
         }
       }
     }
