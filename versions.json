@@ -1,7 +1,20 @@
 {
   "vendor": "qcom",
-  "latest": "20261122125105",
+  "latest": "20261122130448",
   "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261122130448",
+      "notes": "修复部分老旧基站ntp服务问题",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261122130448/windserver-linux-arm",
+          "sha256": "4b44e66992a017741a3996ac31cf7d6a770b856f5c17f86698692d655e29db3b",
+          "size": 6441128
+        }
+      }
+    },
     {
       "vendor": "qcom",
       "version": "20261122125105",
@@ -38,19 +51,6 @@
           "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261116230743/windserver-linux-arm",
           "sha256": "74e4e19a1df981223b9a87b7562e6757f4de356aaed171979f72202b70edcdef",
           "size": 6516372
-        }
-      }
-    },
-    {
-      "vendor": "qcom",
-      "version": "20261116-x65-ui-display-fix",
-      "notes": "UI美化，修复部分内容显示",
-      "force": false,
-      "packages": {
-        "arm": {
-          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261116-x65-ui-display-fix/windserver-linux-arm",
-          "sha256": "2fe681129127b408d568a6005cd9c3ef104094603bf9d735155e62724a8a21b4",
-          "size": 6508592
         }
       }
     }
