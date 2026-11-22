@@ -1,7 +1,20 @@
 {
   "vendor": "qcom",
-  "latest": "20261122233011",
+  "latest": "20261123001427",
   "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261123001427",
+      "notes": "修复载波显示，IMS开关",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261123001427/windserver-linux-arm",
+          "sha256": "b3657217126a57bdef028a90bceae4be212580ca79cee0aed3e6ebc4c9ebd323",
+          "size": 7726464
+        }
+      }
+    },
     {
       "vendor": "qcom",
       "version": "20261122233011",
@@ -38,19 +51,6 @@
           "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261122131905/windserver-linux-arm",
           "sha256": "8a34c673a792bfd376331b496fa45a31cb2442dc28f941f022b5d83306ef7bbd",
           "size": 6376808
-        }
-      }
-    },
-    {
-      "vendor": "qcom",
-      "version": "20261122130448",
-      "notes": "修复部分老旧基站ntp服务问题",
-      "force": false,
-      "packages": {
-        "arm": {
-          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261122130448/windserver-linux-arm",
-          "sha256": "4b44e66992a017741a3996ac31cf7d6a770b856f5c17f86698692d655e29db3b",
-          "size": 6441128
         }
       }
     }
