@@ -1,7 +1,20 @@
 {
   "vendor": "qcom",
-  "latest": "20261122131905",
+  "latest": "20261122194109",
   "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261122194109",
+      "notes": "修复大量BUG，添加部分新功能，优化性能，推荐更新，不更后悔",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261122194109/windserver-linux-arm",
+          "sha256": "e70b0c324a09c656ffbf823dd5fe040a75c87e0ccc6871f2bcdb1054633d3aac",
+          "size": 7730892
+        }
+      }
+    },
     {
       "vendor": "qcom",
       "version": "20261122131905",
@@ -38,19 +51,6 @@
           "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261122125105/windserver-linux-arm",
           "sha256": "5d98897d8288c7aac771271f8c7715b300747b826ae488db656567e9e43f41f5",
           "size": 6411556
-        }
-      }
-    },
-    {
-      "vendor": "qcom",
-      "version": "20261116232327",
-      "notes": "暂时去掉切卡入口，修复名称错误",
-      "force": false,
-      "packages": {
-        "arm": {
-          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261116232327/windserver-linux-arm",
-          "sha256": "8194ffe620622f7960cc0de4d19a2ac6addfc849d2848e65160a5588a00ef3be",
-          "size": 6517936
         }
       }
     }
