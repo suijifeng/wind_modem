@@ -1,7 +1,20 @@
 {
   "vendor": "qcom",
-  "latest": "20261116232327",
+  "latest": "20261122125105",
   "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261122125105",
+      "notes": "修复b",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261122125105/windserver-linux-arm",
+          "sha256": "5d98897d8288c7aac771271f8c7715b300747b826ae488db656567e9e43f41f5",
+          "size": 6411556
+        }
+      }
+    },
     {
       "vendor": "qcom",
       "version": "20261116232327",
@@ -38,19 +51,6 @@
           "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261116-x65-ui-display-fix/windserver-linux-arm",
           "sha256": "2fe681129127b408d568a6005cd9c3ef104094603bf9d735155e62724a8a21b4",
           "size": 6508592
-        }
-      }
-    },
-    {
-      "vendor": "qcom",
-      "version": "20261116003941",
-      "notes": "修复QCOM频段重置(64/256位LTE掩码)、CA副载波仅按邻区serving显示、隐藏快操入口、重启清空监控数据库",
-      "force": false,
-      "packages": {
-        "arm": {
-          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261116003941/windserver-linux-arm",
-          "sha256": "801bc33e76893bc4f154e1df8728ec263c0d54028280d2961301e1b43c1dbb61",
-          "size": 5398460
         }
       }
     }
