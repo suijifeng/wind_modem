@@ -1,7 +1,20 @@
 {
   "vendor": "qcom",
-  "latest": "20261123141825",
+  "latest": "20261124010134",
   "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261124010134",
+      "notes": "修复一点BUG",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261124010134/windserver-linux-arm",
+          "sha256": "9c03598af2efb6a2c7fdd24fa10bb233818aa42aa9511a3428c2b3c9905b2308",
+          "size": 13762684
+        }
+      }
+    },
     {
       "vendor": "qcom",
       "version": "20261123141825",
@@ -38,19 +51,6 @@
           "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261123122307/windserver-linux-arm",
           "sha256": "82c9db50e18b37d2274d2d69950ca3b27161968aa1723bb25d946d44feaef174",
           "size": 8104324
-        }
-      }
-    },
-    {
-      "vendor": "qcom",
-      "version": "20261123110844",
-      "notes": "优化连接设备显示，添加Vendor设置，优化性能占用，Vendor设置可开启性能优化和IPV6 PD下发",
-      "force": false,
-      "packages": {
-        "arm": {
-          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261123110844/windserver-linux-arm",
-          "sha256": "ce74f3648781d815bdc153aa479fb5ebe77d46b6655bcea5d3770f8fb232cde2",
-          "size": 8139056
         }
       }
     }
