@@ -1,0 +1,19 @@
+{
+  "vendor": "unisoc",
+  "latest": "20261126210642",
+  "versions": [
+    {
+      "vendor": "unisoc",
+      "version": "20261126210642",
+      "notes": "修复锁频",
+      "force": false,
+      "packages": {
+        "arm64": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/unisoc/versions/20261126210642/windserver-linux-arm64",
+          "sha256": "d1e5026de535d9e59c9c452f4a0aced67e40aab70bfe0419fc2aafe0de353b71",
+          "size": 11665532
+        }
+      }
+    }
+  ]
+}
