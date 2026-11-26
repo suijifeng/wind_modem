@@ -1,0 +1,19 @@
+{
+  "vendor": "quectel",
+  "latest": "20261126200800",
+  "versions": [
+    {
+      "vendor": "quectel",
+      "version": "20261126200800",
+      "notes": "修复BUG",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/quectel/versions/20261126200800/windserver-linux-arm",
+          "sha256": "b6fe41e683bc5ee95bbf77c60d1f2b12bfddbb0c6488645ed1fb06a85ea49b4f",
+          "size": 11927676
+        }
+      }
+    }
+  ]
+}
