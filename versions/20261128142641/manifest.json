@@ -1,0 +1,13 @@
+{
+  "vendor": "qcom",
+  "version": "20261128142641",
+  "notes": "修复V6，添加USB模式切换",
+  "force": false,
+  "packages": {
+    "arm": {
+      "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261128142641/windserver-linux-arm",
+      "sha256": "4026d118447f8145b1a34ecc3db8d8e7f12a155e90c9744ec3d395cbc09f93c4",
+      "size": 14549116
+    }
+  }
+}

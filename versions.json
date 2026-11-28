@@ -1,7 +1,20 @@
 {
   "vendor": "qcom",
-  "latest": "20261128142030",
+  "latest": "20261128142641",
   "versions": [
+    {
+      "vendor": "qcom",
+      "version": "20261128142641",
+      "notes": "修复V6，添加USB模式切换",
+      "force": false,
+      "packages": {
+        "arm": {
+          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261128142641/windserver-linux-arm",
+          "sha256": "4026d118447f8145b1a34ecc3db8d8e7f12a155e90c9744ec3d395cbc09f93c4",
+          "size": 14549116
+        }
+      }
+    },
     {
       "vendor": "qcom",
       "version": "20261128142030",
@@ -38,19 +51,6 @@
           "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261123141825/windserver-linux-arm",
           "sha256": "a1c8a13b5ac3eac6031e7cb8fe023dbcd0c174055ee7f4ebc42848375815e3ea",
           "size": 8165636
-        }
-      }
-    },
-    {
-      "vendor": "qcom",
-      "version": "20261123122905",
-      "notes": "修复BUG，推荐更新，Vendor设置按需开启",
-      "force": false,
-      "packages": {
-        "arm": {
-          "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261123122905/windserver-linux-arm",
-          "sha256": "4b08daa35c3cc9e78f9de88be62a7466c0ca0c53b6222b7ff40df1ddb88fd722",
-          "size": 8143572
         }
       }
     }
