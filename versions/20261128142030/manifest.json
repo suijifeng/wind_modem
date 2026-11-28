@@ -1,0 +1,13 @@
+{
+  "vendor": "qcom",
+  "version": "20261128142030",
+  "notes": "fix ipv6",
+  "force": false,
+  "packages": {
+    "arm": {
+      "url": "https://raw.githubusercontent.com/suijifeng/wind_modem/qcom/versions/20261128142030/windserver-linux-arm",
+      "sha256": "0c5986138a5927259360fee8963036f82a1c28688f4f807b4104c8cbd1944f01",
+      "size": 14549116
+    }
+  }
+}
